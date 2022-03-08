@@ -1,6 +1,7 @@
 import json
 
 import openpyxl
+import pymysql
 
 def writeExcel():
     outwb = openpyxl.Workbook()  # 打开一个将写的文件
